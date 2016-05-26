@@ -1,7 +1,7 @@
 body {
 	background: url(https://s3.amazonaws.com/sqore-blog/wp-content/uploads/2015/10/28190219/bigstock-Tennis-balls-on-a-tennis-clay-92765057.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 200%;
 	font-family: Exo-light;
 	overflow: hidden;
 }
@@ -36,45 +36,51 @@ a {
 	src: url(fonts/Exo-Light.ttf);
 }
 
+@font-face {
+	font-family: museosanscyrl;
+	src: url(fonts/museosanscyrl.otf);
+}
+
 .font-type-name {
-	font-family: Lobster;
+	font-family: museosanscyrl;
 }
 
 .company-name {
-	color: #d4d17e;
+	color: #d7f557;
+	font-family: museosanscyrl;
 }
 
 /*HEADER*/
 
 #head {
-	width: 90%;
+	width: 100%;
 	height: 100px;
-	margin: 0 auto;
-	padding: 0 10px;
-	color: #9f7b58;
+	margin: -40px auto;
+	padding: 0;
+	color: #000000;
+/*	background: rgba(0, 0, 0, 0.52);*/
 }
 
 .logo {
-	margin: -90px 150px;
+	margin: 51px 150px;
 	width: 35%;
 	height: 100%;
 	padding: 0 15px;
 }
 
 .logo-name {
-	width: 350px;
-	max-width: 80%;
+	width: 100%;
 	text-align: center;
-	font-family: AlexBrush;
-	font-size: 600%;
+	font-family: secondfont;
+	font-size: 50px;
 	cursor: pointer;
 }
 
 .logo-mini-table {
 	width: 250px;
-	margin: 10px 620px;
+	margin: -140px 620px;
 	font-size: 13px;
-	font-family: Exo-light;
+	font-family: museosanscyrl;
 	color: #d0cbc5;
 }
 
@@ -84,19 +90,19 @@ a {
 	font-size: 14px;
 	font-weight: bold;
 	text-decoration: underline;
-	color: #9f7b58;
+	color: #000000;
 }
 
 .contacts {
-	width: 200px;
+	width: 300px;
 	text-align: center;
-	margin: -65px 940px;
+	margin: 85px 940px;
 }
 
 .contacts p:first-child {
 	text-decoration: underline;
-	margin: -10px;
-	font-family: Exo-light;
+	margin: 0;
+	font-family: museosanscyrl;
 }
 
 .mail {
@@ -145,26 +151,29 @@ a {
 }
 
 .buttons {
-	width: 950px;
-	margin: 140px auto;
+	width: 960px;
+	margin: 120px auto;
 }
 
 .buttons li a {
-	color: #d4d17e;
-	font-size: 19px;
+	color: #000000;
+	font-size: 18px;
+	font-family: secondfont;
 }
 
 .buttons-ul li{
 	display: inline;
 	margin: 120px;
 	padding: 10px;
-	border: 1px solid #d4d17e;
+	border: 1px solid #000000;
 	cursor: pointer;
+	background: rgba(0, 0, 0, 0.24);
 }
 
 .buttons-ul li:hover {
 	border: 1px solid #c4c4c4;
 	transition: .5s;
+	background: rgba(0, 0, 0, 0.72);
 }
 
 .buttons-ul li:hover a {

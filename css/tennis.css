@@ -1,7 +1,7 @@
 body {
-	background: url(https://s3.amazonaws.com/sqore-blog/wp-content/uploads/2015/10/28190219/bigstock-Tennis-balls-on-a-tennis-clay-92765057.jpg);
+	background: url(https://samfarrelly.files.wordpress.com/2010/10/mg_0776.jpg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 	font-family: Exo-light;
 	overflow-x: hidden;
 }
@@ -52,7 +52,7 @@ a {
 	height: 100px;
 	margin: -40px auto;
 	padding: 0;
-	color: #9f7b58;
+	color: #000000;
 /*	background: rgba(0, 0, 0, 0.52);*/
 }
 
@@ -85,7 +85,7 @@ a {
 	font-size: 14px;
 	font-weight: bold;
 	text-decoration: underline;
-	color: #9f7b58;
+	color: #000000;
 }
 
 .contacts {
@@ -121,7 +121,7 @@ a {
 }
 
 .bet-line {
-	background: rgba(101, 159, 185, 0.24);
+	background: rgba(71, 117, 142, 0.39);
 	height: 130px;
 	width: 70%;
 	padding-left: 10px;
@@ -134,8 +134,9 @@ a {
 	height: 30px;
 	text-align: center;
 	line-height: 1px;
-	font-family: Exo-light;
+	font-family: museosanscyrl;
 	font-size: 20px;
+	font-weight: bold;
 	color: #fff;
 	position: absolute;
 	top: 40px;
@@ -143,15 +144,16 @@ a {
 }
 
 .match-time {
-	width: 180px;
+	width: 250px;
 	height: 30px;
 	text-align: center;
-	line-height: 0;
+	line-height: 4px;
 	position: absolute;
 	top: 1%;
 	left: 53%;
-	font-size: 15px;
-	color: #9de39d;
+	font-family: museosanscyrl;
+	font-size: 14px;
+	color: #e4fcd5;
 	border: 1px solid black;
 	border-radius: 5px;
 }
@@ -162,23 +164,26 @@ a {
 	position: absolute;
 	line-height: 0;
 	text-align: center;
-	color: #ea8686;
+	color: #e4fcd5;
 	top: 1%;
 	left: 24%;
-	font-size: 17px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: museosanscyrl;
 }
 
 .bet-button {
 	position: absolute;
-	width: 200px;
+	width: 250px;
 	height: 30px;
 	text-align: center;
 	line-height: 0;
-	background: rgba(255, 0, 0, 0.25);
+	background: rgba(113, 2, 2, 0.72);
 	border: 1px solid #b43838;
 	border-radius: 5px;
 	top: 90px;
 	left: 40%;
+	font-family: museosanscyrl;
 }
 
 .bet-button:hover {
