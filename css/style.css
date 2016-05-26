@@ -1,8 +1,5 @@
 body {
-/*	background: rgb(108, 91, 91);*/
-/*	background-image: url(images/1.png);*/
-	background-image: url(images/head.jpg);
-/*	background-image: url(images/back2.jpg);*/
+	background: url(images/head.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	font-family: Exo-light;
