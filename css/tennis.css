@@ -1,0 +1,203 @@
+body {
+/*	background: rgb(108, 91, 91);*/
+/*	background-image: url(images/1.png);*/
+	background-image: url(images/slide6.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: Exo-light;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #000000
+}
+
+@font-face {
+	font-family: AlexBrush;
+	src: url(fonts/AlexBrush-Regular.ttf);
+}
+
+@font-face {
+	font-family: Kaushan;
+	src: url(fonts/Kaushan.otf);
+}
+
+@font-face {
+	font-family: Lobster;
+	src: url(fonts/Lobster.otf);
+}
+
+@font-face {
+	font-family: secondfont;
+	src: url(fonts/9387.ttf);
+}
+
+@font-face {
+	font-family: Exo-light;
+	src: url(fonts/Exo-Light.ttf);
+}
+
+@font-face {
+	font-family: museosanscyrl;
+	src: url(fonts/museosanscyrl.otf);
+}
+
+.company-name {
+	color: #d4d17e;
+}
+
+/*HEADER*/
+
+#head {
+	width: 100%;
+	height: 100px;
+	margin: -40px auto;
+	padding: 0;
+	color: #9f7b58;
+/*	background: rgba(0, 0, 0, 0.52);*/
+}
+
+.logo {
+	margin: 51px 150px;
+	width: 35%;
+	height: 100%;
+	padding: 0 15px;
+}
+
+.logo-name {
+	width: 100%;
+	text-align: center;
+	font-family: secondfont;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.logo-mini-table {
+	width: 250px;
+	margin: -140px 620px;
+	font-size: 13px;
+	font-family: museosanscyrl;
+	color: #d0cbc5;
+}
+
+.logo-mini-table p {
+	text-align: center;
+	margin: -5px;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #9f7b58;
+}
+
+.contacts {
+	width: 300px;
+	text-align: center;
+	margin: 85px 940px;
+}
+
+.contacts p:first-child {
+	text-decoration: underline;
+	margin: 0;
+	font-family: museosanscyrl;
+}
+
+.mail {
+	font-family: Lobster;
+	color: #d0cbc5;
+}
+
+/*HEADER*/
+
+/*MAIN*/
+
+#main {
+	max-width: 100%;
+	height: 100%;
+	min-height: 550px;
+	max-height: 1000px;
+	margin: 80px 0 0 0;
+	color: #ffffff;
+	padding: 10px 20px;
+/*	background: rgba(235, 255, 0, 0.22);*/
+}
+
+.bet-line {
+	background: rgba(101, 159, 185, 0.24);
+	height: 130px;
+	width: 70%;
+	padding-left: 10px;
+	position: relative;
+	margin: 7px auto;
+}
+
+.match-name {
+	width: 400px;
+	height: 30px;
+	text-align: center;
+	line-height: 1px;
+	font-family: Exo-light;
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	top: 40px;
+	left: 30%;
+}
+
+.match-time {
+	width: 180px;
+	height: 30px;
+	text-align: center;
+	line-height: 0;
+	position: absolute;
+	top: 1%;
+	left: 53%;
+	font-size: 15px;
+	color: #9de39d;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.tournament-name {
+	width: 260px;
+	height: 30px;
+	position: absolute;
+	line-height: 0;
+	text-align: center;
+	color: #ea8686;
+	top: 1%;
+	left: 24%;
+	font-size: 17px;
+}
+
+.bet-button {
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	line-height: 0;
+	background: rgba(255, 0, 0, 0.25);
+	border: 1px solid #b43838;
+	border-radius: 5px;
+	top: 90px;
+	left: 40%;
+}
+
+.bet-button:hover {
+	background: #b43838;
+	cursor: pointer;
+}
+
+.photo1 {
+	position: absolute;
+	width: 96px;
+	left: 4%;
+	border-radius: 10px;
+}
+
+.photo2 {
+	position: absolute;
+	width: 96px;
+	right: 4%;
+	border-radius: 10px;
+}
